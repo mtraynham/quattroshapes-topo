@@ -1,11 +1,11 @@
 {
     "author": "Matt Traynham",
-    "name": "gadm-topo",
+    "name": "quattroshapes-topo",
     "version": "1.0.0",
-    "description": "Converted gadm shape files to topojson",
+    "description": "Converted quattroshapes shape files to topojson",
     "repository": {
         "type": "git",
-        "url": "git://github.com/mtraynham/gadm-topo.git"
+        "url": "git://github.com/mtraynham/quattroshapes-topo.git"
     },
     "engines": {
         "node": ">= 0.8.4"

@@ -1,9 +1,9 @@
 quattroshapes-topo
 ==================
 
-[Foursquare](https://foursquare.com/)'s [Quattroshapes](https://github.com/foursquare/quattroshapes)' shapefiles converted to topoJson
+[Foursquare](https://foursquare.com/)'s [Quattroshapes](https://github.com/foursquare/quattroshapes)' shapefiles converted to TopoJSON
 
-Includes data from foursquare quattroshapes
+Includes data from Foursquare Quattroshapes
 https://github.com/foursquare/quattroshapes
 
 Building this project

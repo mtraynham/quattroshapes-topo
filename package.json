@@ -2,7 +2,7 @@
     "author": "Matt Traynham",
     "name": "quattroshapes-topo",
     "version": "1.0.0",
-    "description": "Converted Quattroshapes shape files to TopoJSON",
+    "description": "Converted Quattroshapes shapefiles to TopoJSON",
     "repository": {
         "type": "git",
         "url": "git://github.com/mtraynham/quattroshapes-topo.git"

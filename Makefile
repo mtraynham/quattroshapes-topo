@@ -53,7 +53,7 @@ shp/%: zip/%.zip
 
 topojson/%.json: shp/%
 	mkdir -p $(dir $@)
-	$(TOPOJSON) -o $@ -p -- shp/$*/$*.shp
+	$(TOPOJSON) --max_old_space_size=8192 -o $@ -p -- shp/$*/$*.shp
 
 clean:
 	rm -rf topojson/*

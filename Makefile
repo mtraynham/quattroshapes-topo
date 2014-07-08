@@ -1,3 +1,4 @@
+NODE = node
 TOPOJSON = node_modules/.bin/topojson
 
 all: \
@@ -53,7 +54,7 @@ shp/%: zip/%.zip
 
 topojson/%.json: shp/%
 	mkdir -p $(dir $@)
-	$(TOPOJSON) --max_old_space_size=8192 -o $@ -p -- shp/$*/$*.shp
+	$(NODE) --max_old_space_size=8192 $(TOPOJSON) -q 1e4 -s 1e-8 -o $@ -p -- shp/$*/$*.shp
 
 clean:
 	rm -rf topojson/*

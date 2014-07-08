@@ -16,7 +16,7 @@ all: \
 gn-qs_localities: \
 	topojson/gn-qs_localities.json \
 # qs_adm0.zip             quatroshapes admin 0                                    106 mb
-qs_adm: \
+qs_adm0: \
 	topojson/qs_adm0.json \
 # qs_adm1.zip             quatroshapes admin 1                                    106 mb
 qs_adm1: \

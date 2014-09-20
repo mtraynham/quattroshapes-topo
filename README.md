@@ -6,6 +6,9 @@ quattroshapes-topo
 Includes data from Foursquare Quattroshapes
 https://github.com/foursquare/quattroshapes
 
+Please read Foursquare's license file before usage.
+https://github.com/foursquare/quattroshapes/blob/master/LICENSE.md
+
 Building this project
 =====================
 
